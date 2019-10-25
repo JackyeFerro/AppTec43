@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTec43.Estoria">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+            <!-- cabeçalho -->
+            <BoxView Grid.Row="0"
+                     Grid.Column="0"
+                     BackgroundColor="Gray"
+                     VerticalOptions="Start" 
+                     HeightRequest="100"/>
+            <FlexLayout Grid.Row="0"
+                         Grid.Column="0"
+                         Margin="16,50,16,16"
+                        Direction="Column"
+                        AlignItems="Center">
+                <Frame WidthRequest="96"
+                   HeightRequest="96"
+                   CornerRadius="48"
+                   IsClippedToBounds="True"
+                   Padding="0"
+                   Margin="0">
+                    <Image Source="http://placeimg.com/96/96/dog" 
+                           Margin="0"
+                           x:Name="vFoto"/>
+                </Frame>
+                <Label Text="Nome"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       x:Name="vName"/>
+            </FlexLayout>
+            <!--Body-->
+            <StackLayout Grid.Row="1"
+                         Grid.Column="0"
+                         VerticalOptions="FillAndExpand"
+                         Padding="16">
+                <Label Text="Conte a estoria desse aluno" />
+                <Entry HeightRequest="300"
+                       MinimumWidthRequest="380"
+                       Placeholder="Descreva o estoria"
+                       x:Name="vEstoria"/>
+            </StackLayout>
+            <!--rodape-->
+            <StackLayout Grid.Row="2"
+                         Grid.Column="0"
+                         Orientation="Horizontal"
+                         VerticalOptions="End"
+                         HorizontalOptions="CenterAndExpand"
+                         Padding="8">
+                <Button Text="Narrar" x:Name="BtnNarrar" Clicked="BtnNarrar_Clicked" />
+                <Button Text="Limpar" x:Name="BtnLimpar"/>
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

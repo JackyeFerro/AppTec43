@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTec43.Turma">
+    <ContentPage.Content>
+        <StackLayout Spacing="4"
+                     HorizontalOptions="CenterAndExpand">
+            <Label Text="Tecnico em informatica"
+                   FontSize="Medium"
+                   FontAttributes="Bold"/>
+            <Label Text="Turma 43"
+                   FontSize="Medium"
+                   FontAttributes="Italic"/>
+            <BoxView HeightRequest="2" Margin="0,4,280,4" Color="Black" />
+            <Label Text="SENAC" 
+                   FontSize="Small"/>
+            <Grid RowSpacing="8"
+                  ColumnSpacing="8"
+                  Margin="16,32,16,16">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Row="0"
+                             Grid.Column="0">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/LhxwN1v/Babidi-Icon.jpg"
+                                     x:Name="btnAluno01"
+                                     Clicked="BtnAluno01_Clicked"/>
+                    </Frame>
+                    <!--<Label Text="Nome"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="0"
+                             Grid.Column="1">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/bKpTVgz/YanIcon.jpg" x:Name="btnAluno02" Clicked="BtnAluno02_Clicked"/>
+                    </Frame>
+                    <!--<Label Text="Nome" 
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="0"
+                             Grid.Column="2">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/qjBtgF0/moreti-Icon.jpg" x:Name="btnAluno03" Clicked="BtnAluno03_Clicked" />
+                    </Frame>
+                    <!--<Label Text="Nome"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="1"
+                             Grid.Column="0">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/KrbmN7h/Valerioicon.jpg" x:Name="btnAluno04" Clicked="BtnAluno04_Clicked"/>
+                    </Frame>
+                    <!--<Label Text="Nome"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="1"
+                             Grid.Column="1">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/LCRjs1g/Pedro-Icon.jpg" x:Name="btnAluno05" Clicked="BtnAluno05_Clicked"/>
+                    </Frame>
+                    <!--<Label Text="Nome"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="1"
+                             Grid.Column="2">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/YN9WLr0/Uzaias-Icon.jpg" x:Name="btnAluno06" Clicked="BtnAluno06_Clicked" />
+                    </Frame>
+                    <!--<Label Text="Nome"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="2"
+                             Grid.Column="0">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/qFjzMYm/mirassol-Icon.png" x:Name="btnAluno07" Clicked="BtnAluno07_Clicked" />
+                    </Frame>
+                    <!--<Label Text="Nome"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="2"
+                             Grid.Column="1">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/TLtMCpJ/espigaverdadeira-Icon.jpg" x:Name="btnAluno08" Clicked="BtnAluno08_Clicked" />
+                    </Frame>
+                    <!--<Label Text="Nome" 
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="2"
+                             Grid.Column="2">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/KKY5vb7/Vitor-Icon.jpg" x:Name="btnAluno09" Clicked="BtnAluno09_Clicked" />
+                    </Frame>
+                    <!--<Label Text="Nome"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="3"
+                             Grid.Column="0">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/t8v87KY/seninha-Icon.jpg" x:Name="btnAluno10" Clicked="BtnAluno10_Clicked"/>
+                    </Frame>
+                    <!--<Label Text="Nome" 
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="3"
+                             Grid.Column="1">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/0CrSdxB/YuriIcon.jpg" x:Name="btnAluno11" Clicked="BtnAluno11_Clicked" />
+                    </Frame>
+                    <!--<Label Text="Nome"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+                <StackLayout Grid.Row="3"
+                             Grid.Column="2">
+                    <Frame HeightRequest="96"
+                           WidthRequest="96"
+                           CornerRadius="48"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           Margin="0">
+                        <ImageButton Source="https://i.ibb.co/G7tb48g/sabio-Icon.jpg" x:Name="btnAluno12" Clicked="BtnAluno12_Clicked" />
+                    </Frame>
+                    <!--<Label Text="Nome" 
+                       HorizontalOptions="FillAndExpand"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>-->
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
